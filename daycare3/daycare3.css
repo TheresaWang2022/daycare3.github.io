@@ -14,7 +14,7 @@ img{
 body{
     height: 100vh;
     background-image: url(table.jpg);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -114,13 +114,13 @@ body{
    height: 1px;
    background: rgb(231, 228, 228);
    margin-bottom: 20px;
-   margin-inline: auto;
+   margin: 0 auto;
 }
 .text-title{
    color: rgb(245, 83, 8)
 }
 .card{
-   border: none;
+   border: none !important;
 }
 
 span{
