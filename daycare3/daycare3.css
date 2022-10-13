@@ -70,9 +70,7 @@ body{
     transform: scaleX(1);
     transform-origin: left;
  }
- nav a:focus{
-   color: rgb(231, 164, 221);
- }
+ 
  #menu-btn{
     color: #606c88;
     float: right;
@@ -88,11 +86,21 @@ body{
    text-align: center;
    margin-top: 200px;
    color: white;
+   padding-top: 200px;
  }
-.container{
-    width: 100%;
-    height: 100vh;
+ .container{
+   width: 100%;
+   height: 100vh;
 }
+.main-section{
+   width: 100%;
+   height: 100%;
+}
+.about-section{
+   width: 100%;
+   height: 100%  ;
+}
+
 .grid{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -101,6 +109,34 @@ body{
 .grid img{
    aspect-ratio: 1 / 1;
 }
+.line{
+   width: 50%;
+   height: 1px;
+   background: rgb(231, 228, 228);
+   margin-bottom: 20px;
+   margin-inline: auto;
+}
+.text-title{
+   color: rgb(245, 83, 8)
+}
+.card{
+   border: none;
+}
+
+span{
+   font-size: 20px;
+   font-weight: bold;
+   
+}
+.profile-details p{
+   font-size: 20px;
+   word-spacing: 10px;
+}
+
+footer{
+   width: 100%;
+}
+
 
  @media (max-width: 768px){
 
@@ -119,6 +155,7 @@ body{
         transition: all 0.2s ease;
         backdrop-filter: blur(30px);
         margin-right: 0;
+        
     }
     nav ul li{
         display: block;
